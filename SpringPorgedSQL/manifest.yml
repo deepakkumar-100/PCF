@@ -1,0 +1,8 @@
+applications:
+- name: SpringPostgreSQLDeepak
+
+path: target\SpringPorgedSQL-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+services:
+- myPostgreSqlDeepak
+- autoscale-development

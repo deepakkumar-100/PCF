@@ -1,0 +1,7 @@
+applications:
+- name: PCFDEMOBharat
+
+path: target/pcfdemo-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+services:
+- autoscale-dev
